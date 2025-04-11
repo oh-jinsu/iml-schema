@@ -1,8 +1,8 @@
 {
-  "name": "iml-view",
+  "name": "iml-schema",
   "version": "1.0.0",
-  "main": "./dist/iml-view.umd.js",
-  "module": "./dist/iml-view.es.js",
+  "main": "./dist/iml-schema.umd.js",
+  "module": "./dist/iml-schema.es.js",
   "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
@@ -16,5 +16,6 @@
   "devDependencies": {
     "vite": "^6.2.4",
     "vite-plugin-dts": "^4.5.3"
-  }
+  },
+  "dependencies": {}
 }

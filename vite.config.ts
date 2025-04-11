@@ -3,10 +3,11 @@ import dts from "vite-plugin-dts";
 
 export default defineConfig({
   build: {
+    minify: false,
     lib: {
       entry: "src/index.ts",
-      name: "iml-view",
-      fileName: (format) => `iml-view.${format}.js`,
+      name: "iml-schema",
+      fileName: (format) => `iml-schema.${format}.js`,
     },
   },
   plugins: [dts()],
