@@ -1,15 +1,28 @@
 export type IML = {
   ch: number;
   outerWalls: {
-    ps: [number, number];
-    pe: [number, number];
+    x1: number;
+    y1: number;
+    x2: number;
+    y2: number;
     thickness: number;
     height: number;
   }[];
   innerWalls: {
-    ps: [number, number];
-    pe: [number, number];
+    x1: number;
+    y1: number;
+    x2: number;
+    y2: number;
     thickness: number;
     height: number;
+  }[];
+  doors: {
+    x1: number;
+    y1: number;
+    x2: number;
+    y2: number;
+    hingeSide: "left" | "right";
+    swingDirection: "in" | "out";
+    target: "innerWall" | "outerWall";
   }[];
 };
