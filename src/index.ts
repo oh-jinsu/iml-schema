@@ -8,6 +8,12 @@ export type IML = {
     thickness: number;
     height: number;
   }[];
+  rooms: {
+    id: string;
+    name: string;
+    walls: string[];
+    points: { x: number; y: number }[];
+  };
   innerWalls: {
     x1: number;
     y1: number;
