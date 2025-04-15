@@ -13,7 +13,7 @@ export type IML = {
     name: string;
     walls: string[];
     points: { x: number; y: number }[];
-  };
+  }[];
   innerWalls: {
     x1: number;
     y1: number;
