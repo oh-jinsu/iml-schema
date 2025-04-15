@@ -1,6 +1,6 @@
 {
   "name": "iml-schema",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/iml-schema.umd.js",
   "module": "./dist/iml-schema.es.js",
   "types": "./dist/index.d.ts",
